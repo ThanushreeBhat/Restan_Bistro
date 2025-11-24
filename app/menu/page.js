@@ -15,7 +15,7 @@ export default function Menu() {
     <div className="w-full h-full bg-[white] dark:bg-[#1B1B1B] text-black dark:text-white overflow-x-hidden">
       <Header />
 
-      {/* First Crad */}
+      {/* 1st */}
       <div
         className="w-full h-[50vh] md:h-[75vh] text-white bg-cover bg-center"
         style={{ backgroundImage: `url(${shape})` }}
@@ -246,6 +246,10 @@ export default function Menu() {
               </div>
             </button>
           </div>
+          <img
+            src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fillustration%2F11.png&w=1920&q=75"
+            className="mt-10 md:mt-70 w-60 md:w-150"
+          ></img>
           </div>
       </div>
 

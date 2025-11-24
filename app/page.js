@@ -85,9 +85,9 @@ export default function Home() {
               aria-expanded={open}
               onClick={() => setOpen((v) => !v)}
             >
-              <div className="w-6 h-2px bg-white mb-1" />
-              <div className="w-6 h-2px bg-white mb-1" />
-              <div className="w-6 h-2px bg-white" />
+              <div className="w-6 h-2 bg-white mb-1" />
+              <div className="w-6 h-2 bg-white mb-1" />
+              <div className="w-6 h-2 bg-white mb-1" />
             </button>
          {open && (
           <div className="md:hidden bg-black/95">
@@ -261,7 +261,7 @@ export default function Home() {
     </section>
     <section className="bg-black m-10 md:m-30 p-8 rounded-3xl w-fit md:p-16 flex flex-col md:flex-row items-center justify-between gap-10">
       <div className="flex flex-row">
-        <div className="relative">
+        <div className="hidden md:block relative">
           <img src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fillustration%2F16.png&w=1080&q=75" alt="onlineorder" />
         </div>
         <div className="relative flex flex-col  text-white py-20 px-6 text-center md:text-left">
