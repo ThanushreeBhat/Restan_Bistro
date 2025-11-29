@@ -92,11 +92,11 @@ export default function Home() {
          {open && (
           <div className="md:hidden bg-black/95">
             <div className="px-4 pt-4 pb-6 space-y-2">
-              <button className="w-full text-left py-2 px-2 text-white font-medium">Home</button>
-              <button className="w-full text-left py-2 px-2 text-white font-medium">Pages</button>
-              <button className="w-full text-left py-2 px-2 text-white font-medium">Menu</button>
-              <button className="w-full text-left py-2 px-2 text-white font-medium">Blog</button>
-              <button className="w-full text-left py-2 px-2 text-white font-medium">Shop</button>
+              <Link href="/" className="w-full text-left py-2 px-2 text-white font-medium">Home</Link>
+              <Link href="/menu" className="w-full text-left py-2 px-2 text-white font-medium">Pages</Link>
+              <Link href="/menu" className="w-full text-left py-2 px-2 text-white font-medium">Menu</Link>
+              <Link href="/Blog" className="w-full text-left py-2 px-2 text-white font-medium">Blog</Link>
+              <Link href="/About" className="w-full text-left py-2 px-2 text-white font-medium">Shop</Link>
             </div>
           </div>
         )}   
