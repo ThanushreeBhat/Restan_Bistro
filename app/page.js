@@ -96,7 +96,7 @@ export default function Home() {
               <Link href="/menu" className="w-full text-left py-2 px-2 text-white font-medium">Pages</Link>
               <Link href="/menu" className="w-full text-left py-2 px-2 text-white font-medium">Menu</Link>
               <Link href="/Blog" className="w-full text-left py-2 px-2 text-white font-medium">Blog</Link>
-              <Link href="/About" className="w-full text-left py-2 px-2 text-white font-medium">Shop</Link>
+              <Link href="/About" className="w-full text-left py-2 px-2 text-white font-medium">AboutUS</Link>
             </div>
           </div>
         )}   
