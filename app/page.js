@@ -59,7 +59,7 @@ export default function Home() {
 
         {/* Left Menu */}
         <div className="flex items-center gap-10 text-lg ml-0 md:ml-30 lg:ml-16 xl:ml-20">
-          <Link href="/page.js" className="hidden md:block hover:text-yellow-400 cursor-pointer">Home</Link>
+          <Link href="/" className="hidden md:block hover:text-yellow-400 cursor-pointer">Home</Link>
           <Link href="/menu" className="hidden md:block hover:text-yellow-400 cursor-pointer">Pages</Link>
           <Link href="/menu" className="hidden md:block hover:text-yellow-400 cursor-pointer">Menu</Link>
         </div>

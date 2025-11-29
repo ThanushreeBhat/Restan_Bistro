@@ -40,11 +40,6 @@ export default function Landingpage() {
             <div className="hidden md:block  ml-[40px] font-extrabold text-[18px]  text-white ">
               L
             </div>
-
-            
-            
-
-
           </div>
         </div>
         <div className=" bg-black h-[130px] w-full flex flex-row  py-5  shadow-white shadow border ">
@@ -53,19 +48,19 @@ export default function Landingpage() {
 
           <div className="items-center flex flex-row ml-[300px]">
             <div className="hidden md:block underline underline-offset-4 mr-[50px] mt-2 text-[18px]  text-white font-bold">
-               <Link href="/page.js" className="hidden md:block hover:text-yellow-400 cursor-pointer">Home</Link>
+               <Link href="/" className="hidden md:block hover:text-yellow-400 cursor-pointer">Home</Link>
             </div>
             <div className="hidden md:block  underline underline-offset-4 mr-[50px] mt-2.5 text-[18px] text-white font-bold">
-              <Link href="/menu" className="hidden md:block hover:text-yellow-400 cursor-pointer">Pages</Link>
+              <Link href="./menu" className="hidden md:block hover:text-yellow-400 cursor-pointer">Pages</Link>
             </div>
             <div className="hidden md:block  underline underline-offset-4 mr-[50px] mt-2.5 text-[18px] text-white font-bold">
-             <Link href="/menu" className="hidden md:block hover:text-yellow-400 cursor-pointer">Menu</Link>
+             <Link href="./menu" className="hidden md:block hover:text-yellow-400 cursor-pointer">Menu</Link>
             </div>
             <div className="hidden md:block  underline underline-offset-4 mr-[50px] mt-2.5 text-[18px] text-white font-bold">
-              <Link href="/blog" className= "hidden md:block hover:text-yellow-400 cursor-pointer">Blog</Link>
+              <Link href="./Blog" className= "hidden md:block hover:text-yellow-400 cursor-pointer">Blog</Link>
             </div>
             <div className="hidden md:block  underline underline-offset-4 mr-[50px] mt-2.5 text-[18px] text-white font-bold">
-              <Link href="/AboutUs" className="hover:text-yellow-400 hidden md:block cursor-pointer">Shop</Link>
+              <Link href="./About" className="hover:text-yellow-400 hidden md:block cursor-pointer">AboutUs</Link>
             </div>
              <img className="hidden md:block h-[60px] w-[60px] ml-[150px] "
               src="https://d3omj40jjfp5tk.cloudfront.net/media_gallery/merchant/5b4e57bc6ac8a1255eb03764/image/6224f843afa45e1f08d8db2a.png?1646590019" />

@@ -8,8 +8,7 @@ import Link from "next/link";
 export default function Landingpage() {
   return (
     <div>
-
-      <div className="md:min-h-screen  w-full items-center  flex flex-col">
+          <div className="md:min-h-screen  w-full items-center  flex flex-col">
 
         <div className="bg-amber-800 h-[60px] w-full flex flex-row  py-5 ">
           <div className="flex flex-row ">
@@ -52,7 +51,7 @@ export default function Landingpage() {
 
           <div className="items-center flex flex-row ml-[300px]">
             <div className="hidden md:block underline underline-offset-4 mr-[50px] mt-2 text-[18px]  text-white font-bold">
-              <Link href="/page.js" className="hidden md:block hover:text-yellow-400 cursor-pointer">Home</Link>
+              <Link href="/" className="hidden md:block hover:text-yellow-400 cursor-pointer">Home</Link>
             </div>
             <div className="hidden md:block  underline underline-offset-4 mr-[50px] mt-2.5 text-[18px] text-white font-bold">
               <Link href="/menu" className="hidden md:block hover:text-yellow-400 cursor-pointer">Pages</Link>
@@ -61,11 +60,11 @@ export default function Landingpage() {
               <Link href="/menu" className="hidden md:block hover:text-yellow-400 cursor-pointer">Menu</Link>
             </div>
             <div className="hidden md:block  underline underline-offset-4 mr-[50px] mt-2.5 text-[18px] text-white font-bold">
-              <Link href="/blog" className= "hidden md:block hover:text-yellow-400 cursor-pointer">Blog</Link>
+              <Link href="./Blog" className= "hidden md:block hover:text-yellow-400 cursor-pointer">Blog</Link>
             </div>
             
             <div className="hidden md:block  underline underline-offset-4 mr-[50px] mt-2.5 text-[18px] text-white font-bold">
-              <Link href="/AboutUs" className="hover:text-yellow-400 hidden md:block cursor-pointer">Shop</Link>
+              <Link href="./About" className="hover:text-yellow-400 hidden md:block cursor-pointer">AboutUs</Link>
             </div>
             
             <img className="hidden md:block h-[60px] w-[60px] ml-[150px] "

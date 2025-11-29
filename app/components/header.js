@@ -49,7 +49,7 @@ export default function Header() {
 
           {/* Center: desktop menu */}
           <div className="hidden md:flex items-center gap-8">
-            <Link href="" className="text-white font-medium hover:text-amber-400">Home</Link>
+            <Link href="/" className="text-white font-medium hover:text-amber-400">Home</Link>
             <Link href="/menu"className="text-white font-medium hover:text-amber-400">Pages</Link>
             <Link href="/menu" className="text-white font-medium hover:text-amber-400">Menu</Link>
             <Link href="/Blog" className="text-white font-medium hover:text-amber-400">Blog</Link>
