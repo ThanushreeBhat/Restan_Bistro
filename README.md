@@ -37,15 +37,15 @@ Includes menu pages, blog section, chef details, header/footer components, and s
 📁 RESTAN
 ├── app/
 │   ├── About/
-│   │   └── page.js              # About page
+│   │   └── page.js              
 │   │
 │   ├── Blog/
-│   │   └── page.js              # Blog page
+│   │   └── page.js             
 │   │
 │   ├── menu/
-│   │   └── page.js              # Menu page
+│   │   └── page.js             
 │   │
-│   ├── components/              # All UI components
+│   ├── components/              
 │   │   ├── Blog.js
 │   │   ├── BlogSection.js
 │   │   ├── Chef.js
@@ -54,16 +54,16 @@ Includes menu pages, blog section, chef details, header/footer components, and s
 │   │   ├── Menucard.js
 │   │   └── Openhrs.js
 │   │
-│   ├── layout.js                # Root layout
-│   ├── page.js                  # Home page
-│   └── globals.css              # Global styles (Tailwind)
+│   ├── layout.js               
+│   ├── page.js                  
+│   └── globals.css              
 │
-├── public/                      # Static assets
+├── public/                      
 │
-├── next.config.mjs              # Next.js config
-├── jsconfig.json                # Path alias config
-├── eslint.config.mjs            # ESLint config
-├── package.json                 # Dependencies & scripts
+├── next.config.mjs             
+├── jsconfig.json                
+├── eslint.config.mjs            
+├── package.json                
 └── .gitignore
 ```
 
