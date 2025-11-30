@@ -1,45 +1,39 @@
-RESTAN – Restaurant Website (Next.js + Tailwind CSS)
+# **RESTAN – Restaurant Website (Next.js + Tailwind CSS)**
 
-A modern, responsive restaurant website built using Next.js App Router, Tailwind CSS, and clean reusable components.
+A modern, responsive restaurant website built using **Next.js App Router**, **Tailwind CSS**, and clean reusable components.  
 Includes menu pages, blog section, chef details, header/footer components, and smooth UI design.
 
-🔗 Live Website
-👉 https://restan-bistro.vercel.app
+🔗 **Live Website** → https://restan-bistro.vercel.app  
+📁 **GitHub Repository** → https://github.com/ThanushreeBhat/Restan_Bistro  
 
-📁 GitHub Repository
-👉https://github.com/ThanushreeBhat/Restan_Bistro
+---
 
-Tech Stack
+## 🚀 **Tech Stack**
 
--Next.js 13+ (App Router)
+- **Next.js 13+ (App Router)**
+- **React**
+- **Tailwind CSS**
+- **JavaScript**
+- **Node.js**
+- **Vercel**
 
--React
+---
 
--Tailwind CSS
+## ⭐ **Features**
 
--JavaScript 
+✔️ Fully responsive modern UI  
+✔️ Homepage with hero, menu, blog & chef sections  
+✔️ Dedicated **About**, **Blog**, and **Menu** pages  
+✔️ Modular & reusable components  
+✔️ SEO-friendly Next.js routing  
+✔️ Fast performance with image optimization  
+✔️ Easy to customize and extend  
 
--Node.js
+---
 
--Vercel 
+## 📦 **Project Structure**
 
-⭐ Features
-
-✔️ Fully responsive modern UI
-
-✔️ Homepage with hero, menu, blog & chef sections
-
-✔️ Dedicated About, Blog, and Menu pages
-
-✔️ Modular & reusable components
-
-✔️ SEO-friendly Next.js routing
-
-✔️ Fast performance with image optimization
-
-✔️ Easy to customize and extend
-
-📦 Project Structure
+```
 📁 RESTAN
 ├── app/
 │   ├── About/
@@ -71,28 +65,40 @@ Tech Stack
 ├── eslint.config.mjs            # ESLint config
 ├── package.json                 # Dependencies & scripts
 └── .gitignore
+```
 
+---
 
-🛠️ Installation & Setup
-1. Clone the repository
-git clone https://github.com/your-username/RESTAN.git
+## 🛠️ **Installation & Setup**
+
+### **1. Clone the repository**
+```sh
+git clone https://github.com/ThanushreeBhat/Restan_Bistro.git
 cd RESTAN
+```
 
-2. Install dependencies
+### **2. Install dependencies**
+```sh
 npm install
+```
 
-3. Run the development server
+### **3. Run the development server**
+```sh
 npm run dev
+```
 
+Now visit 👉 **http://localhost:3000**
 
-Visit 👉 http://localhost:3000
+---
 
-📤 Deployment
+## 📤 **Deployment**
 
-You can deploy the project easily using Vercel:
+You can deploy the project easily using **Vercel**:
 
-Go to https://vercel.com
+1. Go to **https://vercel.com**
+2. Import your GitHub repository
+3. Click **Deploy**  
+   (Vercel automatically detects and optimizes Next.js)
 
-Import your GitHub repo
+---
 
-Deploy — it automatically detects Next.js
