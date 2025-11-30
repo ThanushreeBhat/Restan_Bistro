@@ -1,39 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+RESTAN – Restaurant Website (Next.js + Tailwind CSS)
 
-vercel Deployment link:https://restan-bistro.vercel.app
+A modern, responsive restaurant website built using Next.js App Router, Tailwind CSS, and clean reusable components.
+Includes menu pages, blog section, chef details, header/footer components, and smooth UI design.
 
-## Getting Started
+🔗 Live Website
+👉 https://restan-bistro.vercel.app
 
-First, run the development server:
+📁 GitHub Repository
+👉https://github.com/ThanushreeBhat/Restan_Bistro
 
-```bash
+Tech Stack
+
+-Next.js 13+ (App Router)
+
+-React
+
+-Tailwind CSS
+
+-JavaScript 
+
+-Node.js
+
+-Vercel 
+
+⭐ Features
+
+✔️ Fully responsive modern UI
+
+✔️ Homepage with hero, menu, blog & chef sections
+
+✔️ Dedicated About, Blog, and Menu pages
+
+✔️ Modular & reusable components
+
+✔️ SEO-friendly Next.js routing
+
+✔️ Fast performance with image optimization
+
+✔️ Easy to customize and extend
+
+📦 Project Structure
+📁 RESTAN
+├── app/
+│   ├── About/
+│   │   └── page.js              # About page
+│   │
+│   ├── Blog/
+│   │   └── page.js              # Blog page
+│   │
+│   ├── menu/
+│   │   └── page.js              # Menu page
+│   │
+│   ├── components/              # All UI components
+│   │   ├── Blog.js
+│   │   ├── BlogSection.js
+│   │   ├── Chef.js
+│   │   ├── Footer.js
+│   │   ├── Header.js
+│   │   ├── Menucard.js
+│   │   └── Openhrs.js
+│   │
+│   ├── layout.js                # Root layout
+│   ├── page.js                  # Home page
+│   └── globals.css              # Global styles (Tailwind)
+│
+├── public/                      # Static assets
+│
+├── next.config.mjs              # Next.js config
+├── jsconfig.json                # Path alias config
+├── eslint.config.mjs            # ESLint config
+├── package.json                 # Dependencies & scripts
+└── .gitignore
+
+
+🛠️ Installation & Setup
+1. Clone the repository
+git clone https://github.com/your-username/RESTAN.git
+cd RESTAN
+
+2. Install dependencies
+npm install
+
+3. Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Visit 👉 http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📤 Deployment
 
-## Learn More
+You can deploy the project easily using Vercel:
 
-To learn more about Next.js, take a look at the following resources:
+Go to https://vercel.com
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Import your GitHub repo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# Restan_Bistro" 
+Deploy — it automatically detects Next.js
